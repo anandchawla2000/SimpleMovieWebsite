@@ -1,0 +1,50 @@
+body{
+	background-color: black;
+	
+}
+	
+.imgg
+{ height:55px;
+  width:178px;
+}
+
+.movie
+{  margin-top: 4%; 
+  height: 217px;
+  width: 167px;
+  padding: .25rem;
+background-color: #fff;
+border: 1px solid #dee2e6;
+border-radius: .25rem;
+}
+
+.box
+{
+  height:500px;
+  width:500px;
+  padding-right: 0%;
+  background-color: white;
+}
+
+.column {
+  float: left;
+  width: 23.33%;
+  padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+    text-align: center;
+  }
+  .body
+  {
+     
+      margin: auto;
+      width: 60%;
+  }
+}
+
+p{
+font-style: white;
+}
